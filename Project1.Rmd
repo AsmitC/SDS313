@@ -42,7 +42,7 @@ shootings_ggplot + geom_bar(aes(x = Factors.Threat.Level), col = 'black', fill =
 ```
 
 ```{r echo = FALSE}
-attack = sum(shootings$Factors.Threat.Level == 'attack')/nrow(shootings)
+attack = sum(== 'attack')/nrow(shootings)
 other = sum(shootings$Factors.Threat.Level == 'other')/nrow(shootings)
 undetermined = sum(shootings$Factors.Threat.Level == 'undetermined')/nrow(shootings)
 
